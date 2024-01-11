@@ -7,10 +7,10 @@ startEl.addEventListener("click", function() {
     var timeInterval = setInterval(function() {
         timeLeft--;
         time.textContent = timeLeft;
-          if(timeLeft === 0) {
-            // Stops execution of action at set interval
-            clearInterval(timeInterval);
-        }
+        //   if(timeLeft === 0) {
+        //     // Stops execution of action at set interval
+        //     clearInterval(timeInterval);
+        // }
       }, 1000);
 });
 
